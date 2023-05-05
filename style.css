@@ -1,0 +1,72 @@
+/* Style des boutons */
+.bouton {
+    color: white;
+    background-color: transparent;
+}
+
+/* Style de texte et de fond pour la page de contact */
+.openNewPage {
+    background-color: gray;
+    color: white;
+}
+
+/* Alignement des boutons en haut à droite */
+body {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url('discord-logo.webp');
+    background-attachment: fixed;
+}
+
+/* Style des boutons */
+.bouton1, .bouton2, .bouton3 {
+    margin-left: 10px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: none;
+    width: 150px;
+    height: 50px;
+}
+
+/* Ajout de la classe "bouton" aux boutons */
+.bouton1, .bouton2, .bouton3 {
+    /* Styles communs */
+    color: black;
+    background-color: transparent;
+    border: 2px solid transparent;
+}
+
+/* Style pour le texte des boutons */
+.bouton1 strong, .bouton2 strong, .bouton3 strong {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Style pour le titre de la page contact */
+.openNewPage h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style pour le titre de la page des commandes */
+.openNewPage2 h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style pour le texte des boutons de la page des commandes */
+.bouton4 strong, .bouton5 strong {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Styles spécifiques pour les boutons de la page des commandes */
+.bouton4 {
+    background-color: red;
+}
+
+.bouton5 {
+    background-color: blue;
+}

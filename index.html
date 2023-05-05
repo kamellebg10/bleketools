@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouton Discord</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- bouton pour ajouter le bot -->
+    <button class="bouton1" onclick="window.location.href='https://discord.com/api/oauth2/authorize?client_id=1104004148480979046&permissions=8&scope=bot'"><h1><strong>Inviter</strong></h1></button>
+    
+    <!-- bouton pour rejoindre le serveur -->
+    <button class="bouton2" onclick="window.location.href='https://discord.gg/4cz2hvsM'"><h1><strong>Rejoindre le serveur</strong></h1></button>
+
+    <!-- contacter -->
+    <button class="bouton3" onclick="openNewPage()"><h1><strong>Moyen de contact</strong></h1></button>
+
+    <script>
+    /**
+ * Cette fonction ouvre une nouvelle fenêtre et écrit du contenu HTML dans cette fenêtre.
+ * Le contenu HTML affiche des informations de support et un moyen de contact par e-mail.
+ */
+function openNewPage() {
+  var newWindow = window.open("", "_self");
+  newWindow.document.write('<center style="background-color: #2f363e; color: #fff;"><strong><h1>WELCOME TO SUPPORT<h1></strong> <br> <strong> Do you need help ? </strong> <br> <strong>You can contact us by Email Our email is:</strong> <br> <strong>bleketools@gmail.com</strong> <br> <br> <br> <br> <strong>Did you know that ?</strong> <br> <br> <strong>If you contact us by email, you <br> are more likely to get a response <br> within 24 hours.</strong> <br> <br> <strong>Know that people who will spam <br> our email will be blocked by <br> moderation.</strong> <br> <br> <strong>You have 90% that we answer <br> your problem.</strong> <br> <br> <strong>We never answer on discord in <br> private message.</strong> <br> <br> <strong>Do you know that you can get <br> banned from our services ?</strong></center>');
+}
+
+    </script>
+    
+
+    <!-- les commandes -->
+    <button class="bouton3" onclick="openNewPage2()"><h1><strong>Les commandes</strong></h1></button>
+
+    <script>
+      function openNewPage2() {
+        var newWindow = window.open("", "_self");
+        newWindow.document.write('<center><h1><strong>Commandes <h3>Les commandes sont en cours de développement</h3></strong></h1></center>');
+      }
+    </script>
+</body>
+</html>
